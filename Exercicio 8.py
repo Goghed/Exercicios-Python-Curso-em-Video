@@ -3,7 +3,7 @@
 
 medida = float(input('Digite a medida em metros para ser convertida: '))
 
-centimetros = medida / 100
-milimetros = medida / 1000
+centimetros = medida * 100
+milimetros = medida * 1000
 
 print('Você digitou {} metros e esse valor em centimetros é {} e em milimetros é {}' .format(medida, centimetros, milimetros))
